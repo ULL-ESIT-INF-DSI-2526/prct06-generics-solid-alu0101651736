@@ -1,12 +1,12 @@
-interface printMachine {
+export interface printMachine {
   print(doc: string): string;
 }
 
-interface scanMachine {
+export interface scanMachine {
   scan(doc: string): string;
 }
 
-interface faxMachine {
+export interface faxMachine {
   fax(doc: string): void;
 }
 
